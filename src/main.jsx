@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/Food-ordering-website/">
+  <BrowserRouter basename="/">
     <StoreContextProvider>
       <App />
     </StoreContextProvider>
